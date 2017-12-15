@@ -14,11 +14,11 @@ var webpackConfig = {
     },
     module: {
         loaders: [
- /*           {
+            {
                 test: /\.jsx?$/,
-                loader: 'eslint-loader',
+                loader: "eslint-loader",
                 exclude: /node_modules/
-            },*/
+            },
             {
                 test: /\.js$/,
                 use: "babel-loader"
